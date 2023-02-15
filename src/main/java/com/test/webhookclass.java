@@ -11,6 +11,8 @@ public class webhookclass {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
+        System.out.println("webhook");
+        System.out.println("webhook-PR2");
         return "Hello RESTEasy";
     }
 }
