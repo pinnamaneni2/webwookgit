@@ -12,6 +12,7 @@ public class webhookclass {
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         System.out.println("123");
+        System.out.println("123");
         return "Hello RESTEasy";
     }
 }
